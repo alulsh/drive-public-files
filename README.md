@@ -20,7 +20,7 @@ I publicly shared this script so that anybody can view or run it. You will see w
 
 To run the script:
 
-1. Visit https://script.google.com/d/1BfmF_Iw728kZdTugkzDrH4FmTo0S_i78Fgt61QF55P9uuym8rPIrKIlU/.
+1. Visit https://script.google.com/d/1BfmF_Iw728kZdTugkzDrH4FmTo0S_i78Fgt61QF55P9uuym8rPIrKIlU/edit.
 1. Click on the triangle run button (next to the spider debugger).
 1. Click "Review Permissions" when asked for authorization.
 1. Sign in to your Google account.
@@ -34,7 +34,7 @@ To run the script:
 
 If you'd like to make a copy of this script in your own Google account:
 
-1. Visit https://script.google.com/d/1BfmF_Iw728kZdTugkzDrH4FmTo0S_i78Fgt61QF55P9uuym8rPIrKIlU/.
+1. Visit https://script.google.com/d/1BfmF_Iw728kZdTugkzDrH4FmTo0S_i78Fgt61QF55P9uuym8rPIrKIlU/edit.
 2. Click on "File" then "Make a copy..."
 
 ## Cloning a local copy with clasp
@@ -44,6 +44,6 @@ I used [clasp](https://github.com/google/clasp) to develop this script locally w
 1. Globally install clasp - `npm install -g @google/clasp`.
 1. Login to your Google account with clasp - `clasp login`.
 1. Enable the Google Apps Script API on your Google account - https://script.google.com/home/usersettings.
-1. Create a copy of the script in your own account.
+1. Create a copy of the script in your own account, see [Creating a copy](https://github.com/alulsh/drive-public-files#creating-a-copy).
 1. Create a folder for the App Script files and change in to that directory.
 1. Run `clasp clone <script ID>`. The script ID is in the URL of your copy of the script.
