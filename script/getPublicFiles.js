@@ -26,8 +26,9 @@ function getPublicFiles() {
       }
       
       var url = file.getUrl();
-      Logger.log('Google Drive document <a href="' + url + '"> ' + file.getName() 
-        + '</a> is public and ' + access + ' can ' + permission + ' the document<br/>'); 
+      var html = HtmlService.createHtmlOutput('Google Drive document <a href="' + url + '"> ' + file.getName() 
+        + '</a> is public and ' + access + ' can ' + permission + ' the document<br/>');
+      Logger.log(html.getContent()); 
     }
   }
   
